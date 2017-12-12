@@ -1,0 +1,15 @@
+<library path="lib/librqt_mrta">
+  <class name="rqt_mrta/rqt_mrta_plugin" type="rqt_mrta::RqtMrtaPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A C++ GUI plugin for configuration and monitoring of MRTA Architectures.
+    </description>
+    <qtgui>
+      <group>
+        <label>MRTA</label>
+      </group>
+      <label>MRTA C++ Plugin</label>
+      <icon type="theme">utilities-system-monitor</icon>
+      <statustip>User interface to configure MRTA Architectures.</statustip>
+    </qtgui>
+  </class>
+</library>

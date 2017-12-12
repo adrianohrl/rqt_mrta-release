@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rqt_mrta" pkg="rqt_mrta" type="rqt_mrta"
+        output="screen" launch-prefix="valgrind" />
+</launch>
